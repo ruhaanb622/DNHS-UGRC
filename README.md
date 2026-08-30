@@ -1,6 +1,6 @@
 # DNHS Underground Rap Club website
 
-A responsive, dependency-free club landing page for the Del Norte Underground Rap Club.
+A responsive, dependency-free club website for the Del Norte Underground Rap Club, with meeting details, a first-visit guide, club leadership, FAQ, Instagram, and Discord links.
 
 ## Preview locally
 
