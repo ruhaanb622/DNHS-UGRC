@@ -21,3 +21,13 @@ window.addEventListener("resize", () => {
 
 const year = document.querySelector("#year");
 if (year) year.textContent = String(new Date().getFullYear());
+
+const faqItems = document.querySelectorAll(".faq-list details");
+faqItems.forEach((item) => {
+  item.addEventListener("toggle", () => {
+    if (!item.open) return;
+    faqItems.forEach((otherItem) => {
+      if (otherItem !== item) otherItem.removeAttribute("open");
+    });
+  });
+});
