@@ -851,7 +851,7 @@ h1 {
 
 .people-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 0.7fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   margin-top: clamp(4rem, 8vw, 8rem);
 }
@@ -872,6 +872,10 @@ h1 {
   transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
+ .person-card:not(a) {
+  cursor: default;
+}
+
 .person-card:hover {
   transform: translateY(-7px) rotate(-1deg);
   box-shadow: 9px 9px 0 var(--hot);
@@ -884,6 +888,19 @@ h1 {
 
 .person-card-acid {
   background: var(--acid);
+}
+
+.person-card-hot {
+  background: var(--hot);
+}
+
+.person-card-paper {
+  background: var(--paper);
+}
+
+.person-card-wide {
+  grid-column: span 3;
+  min-height: 210px;
 }
 
 .person-role {
@@ -1197,6 +1214,10 @@ h1 {
     grid-template-columns: 1fr 1fr;
   }
 
+  .person-card-wide {
+    grid-column: span 2;
+  }
+
   .social-proof {
     grid-column: 1 / -1;
   }
@@ -1271,6 +1292,10 @@ h1 {
   }
 
   .people-grid .social-proof {
+    grid-column: auto;
+  }
+
+  .person-card-wide {
     grid-column: auto;
   }
 
