@@ -18,4 +18,4 @@ In the repository, open **Settings → Pages**, choose **Deploy from a branch**,
 
 ## Content sources
 
-Meeting time, room, club motto, leadership handles, Discord invite, and the Instagram follower snapshot are based on the public `@dnhs_ugrc` profile as viewed in August 2026.
+Meeting time, room, club motto, and Discord invite are based on the `@dnhs_ugrc` profile. The 2026–27 board roster, activities, goals, and club expectations were verified from the club's August 29, 2026 leadership carousel.
